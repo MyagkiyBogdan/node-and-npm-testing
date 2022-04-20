@@ -1,0 +1,34 @@
+{
+  "name": "and-npm-testing",
+  "version": "1.0.0",
+  "description": "NPM and Node basics",
+  "main": "index.js",
+  "scripts": {
+    "preapp": "echo \"This is prestart script\"",
+    "app": "node ./server/app.js",
+    "postapp": "echo \"This is poststart script\"",
+    "serverUp": "node ./server/exp.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyagkiyBogdan/node-and-npm-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MyagkiyBogdan/node-and-npm-testing/issues"
+  },
+  "homepage": "https://github.com/MyagkiyBogdan/node-and-npm-testing#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
